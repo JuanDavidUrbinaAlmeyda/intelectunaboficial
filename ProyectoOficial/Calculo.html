@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../estilos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Calculo Integral</title>
+</head>
+<body class="bg-light">
+  <div class="container bg-light">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img class="bi me-2" width="200" height="32" src="logo.png">
+        
+      </a>
+
+      <ul class="nav ">
+        <li class="nav-item"><a href="index.html" class="nav-link active link-dark" aria-current="page">Inicio</a></li>
+        <li class="nav-item"><a href="Calculo.html" class="nav-link link-dark">Cálculo</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark">Diseño</a></li>
+        <li class="nav-item"><a href="Mecanica.html" class="nav-link link-dark">Mecánica</a></li>
+        
+      </ul>
+    </header>
+  </div><br><br>
+  <div class="container">
+     <h1 style="background-color:white"><center>Calculo Integral</center></h1><br><br>
+    <p>¿Cómo encuentras el área bajo una curva? ¿Qué hay de la longitud de una curva? ¿Hay alguna manera de darle sentido a la idea de sumar un número infinito de partes infinitamente pequeñas? El cálculo integral nos da las herramientas para responder estas y muchas otras preguntas. De manera sorprendente, estas preguntas están relacionadas con la derivada, y en cierto sentido, la respuesta a cada una es lo opuesto de la derivada.</p>
+                        
+    <p> La integración es un concepto fundamental del cálculo y del análisis matemático. Básicamente, una integral es una generalización de la suma de infinitos sumandos, infinitesimalmente pequeños: una suma continua. La integral es la operación inversa a la diferencial de una función.
+
+        El cálculo integral, encuadrado en el cálculo infinitesimal, es una rama de las matemáticas en el proceso de integración o antiderivación. Es muy común en la ingeniería y en la ciencia; se utiliza principalmente para el cálculo de áreas y volúmenes de regiones y sólidos de revolución.</p>
+
+    <h2>Antiderivadas</h2> 
+    
+    <p>1.1 Concepto de antiderivada</p>
+
+    <p>La antiderivada es la función que resulta del proceso inverso de la derivación, es decir, consiste en encontrar una función que, al ser derivada produce la función dada. </p>
+        
+     <p> Una función FF recibe el nombre de antiderivada de ff sobre un intervalo [a, b][a,b], para todo xx que pertenece a un intervalo [a, b][a,b].</p> 
+        
+    <h4>  F'(x)=f(x) para todo x en I</h4> 
+        
+      <p>  Así, decimos que F(x) es una primitiva de la función f(x)f(x) si su derivada es precisamente la función f(x).</p> 
+        
+    <p>   Cualquier antiderivada de ff debe ser de la forma G(x)= F(x) + CG(x)=F(x)+C, es decir, dos antiderivadas de la misma función pueden diferir a lo más en una constante. Por tanto, F(x) + CF(x)+C es la antiderivada más general de f(x).</p>
+
+    <p>1.2 Integral indefinida</p>
+
+    <p>Notación de la integral indefinida, por conveniencia, se introducirá la notación para una antiderivada de una función. Si F(x)=F(x),la antiderivada más general de f se representa por:</p>
+
+    <h4>∫f(x)dx=F(x)+C</h4>
+
+    <p>El símbolo ∫ fue introducido por Leibniz y se denomina signo integral. La notación f(x) dx se denomina integral indefinida de f(x) respecto a x. La función f(x) se denomina integrando.</p>
+
+    <p>El proceso de encontrar una antiderivada se denomina antidiferenciación o integración. El número C se denomina constante de integración.</p>
+
+    <p>La notación F(x) + C representa una familia de funciones; cada miembro tiene una derivada igual a f(x).</p>
+
+    <p>por ejemplo, la antiderivada más general de f(x)=2x es la familia F(x)=x^2 + C, la gráfica de la antiderivada</p>
+
+    <img src="https://proyectodescartes.org/iCartesiLibri/materiales_didacticos/Calculo_Diferencial_e_Integral_II/images/cap1/familias.png" alt="Integral">
+
+
+    <br>
+     <h2>Primero, Que es una Integral?</h2>
+     <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VhRb5A2Gihk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  
+
+    <h2 id="c12">Integral indefinida</h2>
+    <p><b>Notación de la integral indefinida</b>, por conveniencia, se introducirá la notación para una antiderivada de una función. Si $F(x)=f(x)$,la antiderivada más general de $f$ se representa por:
+        $$\int f(x)\, dx = F(x) + C$$
+    
+    <p>	El símbolo $\int$ fue introducido por Leibniz y se denomina signo integral. La notación $\int f(x)\, dx$ se denomina integral indefinida de $f(x)$ respecto a $x$. La función $f(x)$ se denomina integrando.</p>
+
+    <div class="page">
+		<h2 id="c13">Integral definida</h2>
+
+    <p>Dada una función f(x) y un intervalo [ a,b ], la integral definida es igual al área limitada entre la gráfica de f(x), el eje de abscisas, y las rectas verticales x = a y x = b.</p>
+
+    <img src="https://www.superprof.es/apuntes/wp-content/uploads/2019/05/la-integral-definida.gif" alt="">
+
+    <ul>
+      <li>
+        "La"
+        <strong>Integral</strong>
+        "se representa por"
+        <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-fa447c96ef3a3584e2c6ca22b9ecc00e_l3.png" alt="\displaystyle \int_{a}^{b}f(x)\, dx" title="Rendered by QuickLaTeX.com" height="53" width="99" class="ql-img-inline-formula" style="vertical-align: -19px;">
+        "."
+      </li>
+      <li>
+   
+      <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-aaf4deb236cbe4dd052d28d95f9df3d6_l3.png" alt="\displaystyle \int" title="Rendered by QuickLaTeX.com" height="47" width="19" class="ql-img-inline-formula" style="vertical-align: -18px;">
+      "Es el signo de integracion"
+      </li>
+      <li>
+      <strong>a</strong>
+      "es el limite inferior de la integracion"
+      </li>
+      <li>
+
+        <strong>b</strong>
+        "es el limite superior de la integracion"
+      </li>
+      <li>
+    
+        <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-e97db3550c2e6cac29f86980721562c4_l3.png" alt="f(x)" title="Rendered by QuickLaTeX.com" height="23" width="39" class="ql-img-inline-formula" style="vertical-align: -6px;">
+        "es el"
+        <strong>integrando</strong>
+        "o funcion a integrar"
+      </li>
+      <li>
+
+        <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-24d0109de039bb44ad2a16758ed8a70d_l3.png" alt="dx" title="Rendered by QuickLaTeX.com" height="14" width="23" class="ql-img-inline-formula" style="vertical-align: 0px;">
+        "es"
+        <strong>diferencial</strong>
+        "de"
+        <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-75e6bf8789a3decf84f52396c7abc809_l3.png" alt="x" title="Rendered by QuickLaTeX.com" height="9" width="12" class="ql-img-inline-formula" style="vertical-align: 0px;">
+        ", e indica cual es la variable de la funcion que se integra"
+      </li>
+    </ul>
+
+    <h2 id="tema_propiedades-de-la-integral-definida">Propiedades de la integral definida</h2>
+    <p><span class="sb">1</span> El valor de la i<strong>ntegral definida</strong> cambia de signo si se permutan los límites de integración.</p>
+
+    <p><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-abaa6c2a697ed91aa6f617d62d85f662_l3.png" alt="\displaystyle \int_{a}^{b}f(x)\, dx=-\int_{b}^{a}f(x)\, dx" title="Rendered by QuickLaTeX.com" height="53" width="249" class="ql-img-inline-formula" style="vertical-align: -19px;"></p>
+
+    <p><span class="sb">2</span> Si los límites que integración coinciden, la <strong>integral definida</strong> vale <strong>cero</strong>.</p>
+
+    <p><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-df36dd1d9968633654ac708974916a27_l3.png" alt="\displaystyle \int_{a}^{a}f(x)\, dx=0" title="Rendered by QuickLaTeX.com" height="49" width="139" class="ql-img-inline-formula" style="vertical-align: -19px;"></p>
+
+    <p><span class="sb">3</span> Si <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-4c9cf90ec72a4f8d57fbbb8c8762e04f_l3.png" alt="c" title="Rendered by QuickLaTeX.com" height="9" width="10" class="ql-img-inline-formula" style="vertical-align: 0px;"> es un punto interior del intervalo <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-cb0b1947188eb39076800e0fa71f5e10_l3.png" alt="\left [ a,b \right ]" title="Rendered by QuickLaTeX.com" height="22" width="37" class="ql-img-inline-formula" style="vertical-align: -6px;">, la i<strong>ntegral definida</strong> se descompone como una suma de dos integrales extendidas a los intervalos <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-1e801aced23b3e81d4cc945e84d0eda8_l3.png" alt="\left [ a,c \right ]" title="Rendered by QuickLaTeX.com" height="22" width="37" class="ql-img-inline-formula" style="vertical-align: -6px;"> y <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-4b156e43ea23369efb5294452668c2e6_l3.png" alt="\left [ c,b \right ]" title="Rendered by QuickLaTeX.com" height="22" width="35" class="ql-img-inline-formula" style="vertical-align: -6px;">.</p>
+
+    <p><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-e7342c1de52431954f2fa5cac8bee022_l3.png" alt="\displaystyle \int_{a}^{b}f(x)\, dx=\int_{a}^{c}f(x)\, dx+\int_{c}^{b}f(x)\, dx" title="Rendered by QuickLaTeX.com" height="53" width="353" class="ql-img-inline-formula" style="vertical-align: -19px;"></p>
+
+    <p><span class="sb">4</span> La<strong> integral definida</strong> de una suma de funciones es igual a la suma de integrales·</p>
+
+    <p><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-79107e587664d39f62804747b79bcc34_l3.png" alt="\displaystyle \int_{a}^{b}\left [ f(x)+g(x) \right ]\, dx=\int_{a}^{b}f(x)\, dx+\int_{a}^{b}g(x)\, dx" title="Rendered by QuickLaTeX.com" height="53" width="431" class="ql-img-inline-formula" style="vertical-align: -19px;"></p>
+    
+    <p><span class="sb">5</span> La integral del producto de una constante por una función es igual a la constante por la integral de la función.</p>
+
+    <p><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-7cbc9dedbc0ab426b08134069459291a_l3.png" alt="\displaystyle \int_{a}^{b}k\cdot f(x)=k\cdot \int_{a}^{b}f(x)\, dx" title="Rendered by QuickLaTeX.com" height="53" width="254" class="ql-img-inline-formula" style="vertical-align: -19px;"></p>
+
+    <p class="actividades_r">La&nbsp;<strong>regla de Barrow</strong> dice que la integral definida de una función continua <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-e97db3550c2e6cac29f86980721562c4_l3.png" alt="f(x)" title="Rendered by QuickLaTeX.com" height="23" width="39" class="ql-img-inline-formula" style="vertical-align: -6px;"> en un intervalo cerrado <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-cb0b1947188eb39076800e0fa71f5e10_l3.png" alt="\left [ a,b \right ]" title="Rendered by QuickLaTeX.com" height="22" width="37" class="ql-img-inline-formula" style="vertical-align: -6px;"> es igual a la diferencia entre los valores que toma una función primitiva <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-6be277c3fdb584f50ac019daf9737c3b_l3.png" alt="G(x)" title="Rendered by QuickLaTeX.com" height="23" width="43" class="ql-img-inline-formula" style="vertical-align: -6px;"> de <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-e97db3550c2e6cac29f86980721562c4_l3.png" alt="f(x)" title="Rendered by QuickLaTeX.com" height="23" width="39" class="ql-img-inline-formula" style="vertical-align: -6px;">, en los extremos de dicho intervalo.</p>
+
+    <p><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-9a7e6b07ae62fadfe6484a0be176df4e_l3.png" alt="\displaystyle \int_{a}^{b}f(x)\, dx=\left [ G(x) \right ]_{a}^{b}=G(b)-G(a)" title="Rendered by QuickLaTeX.com" height="53" width="332" class="ql-img-inline-formula" style="vertical-align: -19px;"></p>
+
+    <p class="actividades_2_v"><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-3bce09c2a4b85a41500661f8c01963b0_l3.png" alt="\displaystyle \int F'(x)\, dx=f(x)" title="Rendered by QuickLaTeX.com" height="47" width="168" class="ql-img-inline-formula" style="vertical-align: -18px;"></p>
+
+    <p class="actividades_r">El t<strong>eorema fundamental del cálculo</strong> nos indica que la derivación y la integración son operaciones inversas.</p>
+
+    <p class="actividades_g">Al integrar una función continua y luego derivarla se recupera la función original.</p>
+
+    <h2 id="tema_teorema-de-la-media-o-del-valor-medio-para-integrales">Teorema de la media o del valor medio para integrales</h2>
+
+    <p class="actividades_g">Si una función es continua en un intervalo cerrado <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-cb0b1947188eb39076800e0fa71f5e10_l3.png" alt="\left [ a,b \right ]" title="Rendered by QuickLaTeX.com" height="22" width="37" class="ql-img-inline-formula" style="vertical-align: -6px;">, existe un punto <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-4c9cf90ec72a4f8d57fbbb8c8762e04f_l3.png" alt="c" title="Rendered by QuickLaTeX.com" height="9" width="10" class="ql-img-inline-formula" style="vertical-align: 0px;"> en el interior del intervalo tal que:</p>
+
+    <p><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-c101a7f02810e6baaf9e2bb052155671_l3.png" alt="\displaystyle \int_{a}^{b}f(x)\, dx=(b-a)\cdot f(c)" title="Rendered by QuickLaTeX.com" height="53" width="241" class="ql-img-inline-formula" style="vertical-align: -19px;"></p>
+
+    <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/uploads/2019/06/regla-de-barrow-explicacion-2.gif" alt="Representación gráfica del teorema del valor medio" width="350" height="244" class="alignnone wp-image-94576 size-full">
+
+    <div class="sombra-tit"><h2></h2> <p>&nbsp;</p> <h2 id="tema_funcion-integral">Función integral</h2></div>
+
+    <p>Sea <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-90831ceef76df4de6a64175fa85fa5ee_l3.png" alt="f(t)" title="Rendered by QuickLaTeX.com" height="23" width="35" class="ql-img-inline-formula" style="vertical-align: -6px;">&nbsp;una <strong>función continua</strong> en el intervalo <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-cb0b1947188eb39076800e0fa71f5e10_l3.png" alt="\left [ a,b \right ]" title="Rendered by QuickLaTeX.com" height="22" width="37" class="ql-img-inline-formula" style="vertical-align: -6px;">.</p>
+
+    <p>A partir de esta función se define la <strong>función integral</strong>:</p>
+
+    <p><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-135bbf35517323d42ce76b4d248b606c_l3.png" alt="\displaystyle F(x)=\int_{a}^{x}f(t)\, dt" title="Rendered by QuickLaTeX.com" height="49" width="166" class="ql-img-inline-formula" style="vertical-align: -19px;"></p>
+
+    <p>que depende del límite superior de integración.</p>
+
+    <p>Para evitar confusiones cuando se hace referencia a la variable de <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-63948fe186e15305b7018324f5302c21_l3.png" alt="f" title="Rendered by QuickLaTeX.com" height="18" width="11" class="ql-img-inline-formula" style="vertical-align: -4px;">, se la llama <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-26528fc81521545e20f04eefee5fb12b_l3.png" alt="t" title="Rendered by QuickLaTeX.com" height="13" width="7" class="ql-img-inline-formula" style="vertical-align: 0px;">, pero si la referencia es a la variable de <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-00ccc1fe9ca218a044d55dd854dbccc7_l3.png" alt="F" title="Rendered by QuickLaTeX.com" height="14" width="16" class="ql-img-inline-formula" style="vertical-align: 0px;">, se la llama <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-75e6bf8789a3decf84f52396c7abc809_l3.png" alt="x" title="Rendered by QuickLaTeX.com" height="9" width="12" class="ql-img-inline-formula" style="vertical-align: 0px;">.</p>
+
+    <p>Geométricamente la <strong>función integral</strong>, <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-3d34bcacc1fb28eb43eb5189c7d4fd72_l3.png" alt="F(x)" title="Rendered by QuickLaTeX.com" height="23" width="43" class="ql-img-inline-formula" style="vertical-align: -6px;">, representa el <strong>área</strong> del recinto limitado por la<br> curva <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-167b457e0f0a2af3bdd4bec2d1c6c953_l3.png" alt="y = f(t)" title="Rendered by QuickLaTeX.com" height="23" width="75" class="ql-img-inline-formula" style="vertical-align: -6px;">, el eje de abscisas y las rectas <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-6cd7504ad3a34b4d06f3326c64fdb370_l3.png" alt="t = a" title="Rendered by QuickLaTeX.com" height="13" width="47" class="ql-img-inline-formula" style="vertical-align: 0px;"> y <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-0f26f8b017e2a94a25973b83d766a1a5_l3.png" alt="t = x" title="Rendered by QuickLaTeX.com" height="13" width="48" class="ql-img-inline-formula" style="vertical-align: 0px;">.</p>
+
+    <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/uploads/2019/05/la-integral-definida-9.gif" alt="ejemplo de la funcion de la integral" width="350" height="279" class="alignnone">
+
+    <p>A la <strong>función integral</strong>, <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-3d34bcacc1fb28eb43eb5189c7d4fd72_l3.png" alt="F(x)" title="Rendered by QuickLaTeX.com" height="23" width="43" class="ql-img-inline-formula" style="vertical-align: -6px;">, también se le llama <strong>función de áreas</strong> de <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-63948fe186e15305b7018324f5302c21_l3.png" alt="f" title="Rendered by QuickLaTeX.com" height="18" width="11" class="ql-img-inline-formula" style="vertical-align: -4px;"> en el intervalo <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-cb0b1947188eb39076800e0fa71f5e10_l3.png" alt="\left [ a,b \right ]" title="Rendered by QuickLaTeX.com" height="22" width="37" class="ql-img-inline-formula" style="vertical-align: -6px;">.</p><br><br>
+
+  
+          
+          <h2 id="tema_metodos-de-integracion">Métodos de integración</h2>
+           <p>&nbsp;</p>
+          <h2 class="r">Integración por partes</h2> 
+          <p>&nbsp;</p>
+          <p class="actividades_g">El&nbsp;método de integración por partes&nbsp;permite calcular la&nbsp;integral de un producto&nbsp;de dos funciones aplicando la&nbsp;fórmula:</p>
+           <p>&nbsp;</p>
+            <p style="text-align: center;"><img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-57d5d222cbbfb4e0baf8a658e1ef1cad_l3.png" alt="\displaystyle \int{u \cdot v' dx} = u \cdot v - \int{u' \cdot v dx}" title="Rendered by QuickLaTeX.com" height="47" width="273" class="ql-img-inline-formula" style="vertical-align: -18px;"></p>
+            <p>&nbsp;</p>
+             <section><p class="a">En las integrales racionales, donde el numerador y el denominador son polinomios, suponemos que el grado del numerador es menor que del denominador, si no fuera así, se dividiría.</p>
+            </section>
+             <p>&nbsp;</p>
+              <p>Recomendaciones a considerar al utilizar integración por partes:</p>
+               <p>&nbsp;</p> <section>
+                <ul>
+                <li class="actividades_g">Las funciones logarítmicas se eligen como&nbsp; <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-af3186109ec5b7dfbd53821e04d82962_l3.png" alt="u" title="Rendered by QuickLaTeX.com" height="9" width="12" class="ql-img-inline-formula" style="vertical-align: 0px;">
+              </li>
+            </ul>
+             <ul>
+              <li>Las funciones trigonométricas inversas (arcoseno, arcocoseno, arcotangente, etc.) se eligen como&nbsp; <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-af3186109ec5b7dfbd53821e04d82962_l3.png" alt="u" title="Rendered by QuickLaTeX.com" height="9" width="12" class="ql-img-inline-formula" style="vertical-align: 0px;">.</li> <li>Los polinomios se eligen como&nbsp; <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-af3186109ec5b7dfbd53821e04d82962_l3.png" alt="u" title="Rendered by QuickLaTeX.com" height="9" width="12" class="ql-img-inline-formula" style="vertical-align: 0px;">
+                </li>
+              </ul>
+               <ul>
+                <li class="actividades_r">Las funciones exponenciales del tipo seno y coseno, se eligen como <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-b1f6c4b141701193da8d8ffb96cb7351_l3.png" alt="v'" title="Rendered by QuickLaTeX.com" height="17" width="16" class="ql-img-inline-formula" style="vertical-align: 0px;">.</li></ul> <ul><li>Las funciones trigonométricas del tipo seno y coseno, se eligen como <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-b1f6c4b141701193da8d8ffb96cb7351_l3.png" alt="v'" title="Rendered by QuickLaTeX.com" height="17" width="16" class="ql-img-inline-formula" style="vertical-align: 0px;">
+                  </li>
+                   <li class="actividades_g">Si al<strong>&nbsp;integrar por partes</strong> tenemos un polinomio de grado <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-3dfafac4e3f11250dfbff4d910146670_l3.png" alt="n" title="Rendered by QuickLaTeX.com" height="9" width="12" class="ql-img-inline-formula" style="vertical-align: 0px;">, lo tomamos como <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-af3186109ec5b7dfbd53821e04d82962_l3.png" alt="u" title="Rendered by QuickLaTeX.com" height="9" width="12" class="ql-img-inline-formula" style="vertical-align: 0px;"> y se repite el proceso <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-3dfafac4e3f11250dfbff4d910146670_l3.png" alt="n" title="Rendered by QuickLaTeX.com" height="9" width="12" class="ql-img-inline-formula" style="vertical-align: 0px;"> veces.</li>
+                   <li class="actividades_r">Si tenemos una&nbsp;<strong>integral</strong> con sólo un logaritmo, <strong>integramos por partes</strong> tomando: <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-3f5e457db6eacb20477eeb0a9320d469_l3.png" alt="v' = 1" title="Rendered by QuickLaTeX.com" height="18" width="53" class="ql-img-inline-formula" style="vertical-align: -1px;">.</li> <li class="actividades_r">Si tenemos una&nbsp;<strong>integral</strong> con sólo una trigonométrica inversa, <strong>integramos por partes</strong> tomando: <img loading="lazy" src="https://www.superprof.es/apuntes/wp-content/ql-cache/quicklatex.com-3f5e457db6eacb20477eeb0a9320d469_l3.png" alt="v' = 1" title="Rendered by QuickLaTeX.com" height="18" width="53" class="ql-img-inline-formula" style="vertical-align: -1px;">
+                    </li>
+                  </ul> 
+                  <p>&nbsp;</p>
+                   <h2 class="r">Integrales por sustitución o cambio de variable</h2>
+                    <p>&nbsp;</p>
+                     <p class="actividades_g">El&nbsp;<strong>método de integración por sustitución o cambio de variable</strong> se basa en la derivada de la composición de dos funciones.</p>
+                    </section>
+                    
+              
+   <div class="container">                     
+    <h2>Recursos</h2> 
+              
+   <ul >
+   <li>
+      <a href="https://www.superprof.es/apuntes/escolar/matematicas/calculo/integrales">Integrales Inmediatas</a>
+   </li>
+   <li>
+    <a href="https://www.superprof.es/apuntes/escolar/matematicas/calculo/integrales">Integrales trigonometricas inversas</a>
+     
+    </li>
+    <li>
+      <a href="https://www.superprof.es/apuntes/escolar/matematicas/calculo/integrales">Por partes</a>
+   </li>
+    <li>
+      <a href="https://www.superprof.es/apuntes/escolar/matematicas/calculo/integrales">Trigonométricas</a>
+    </li>
+  </ul>
+</div>           
+              
+              
+              
+              
+              
+       
+              
+              
+              
+              
+              
+              
+  </div>
+       
+
+	
+
+</body>
+</html>
